@@ -81,3 +81,8 @@
         </div>
     </div>
 </template>
+<script setup>
+useHead({
+  title: "Contacts - L'Agence Poulie"
+})
+</script>
