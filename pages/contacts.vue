@@ -73,7 +73,7 @@
 
                         <div class="space-y-2">
                             <h2 class="text-2xl font-bold">Comment nous appeller?</h2>
-                            <p class="text-gray-400 text-xl">+33 123 456 789 0</p>
+                            <p class="text-gray-400 text-xl">+237 6 57 55 21 55</p>
                         </div>
                     </div>
                 </div>
