@@ -10,9 +10,9 @@
           <!-- lg+ -->
           <nav class="relative flex items-center justify-between h-16 lg:rounded-lg lg:h-24 lg:px-8 lg:py-6">
             <div class="flex-shrink-0">
-              <a href="#" title="" class="flex">
-                <img class="w-auto h-8 lg:h-16" src="/g395.svg" alt="" />
-              </a>
+              <NuxtLink to="/" title="Home" class="flex">
+                <img class="w-auto h-10 lg:h-16" src="/g395.svg" alt="" />
+              </NuxtLink>
             </div>
 
             <button type="button" @click="showMobileMenu = !showMobileMenu"
@@ -29,22 +29,22 @@
             </button>
 
             <div class="hidden ml-10 lg:flex lg:items-center lg:mr-auto lg:space-x-10">
-              <a href="#" title=""
+              <a href="#" title="" @click="hideMobileMenu()"
                 class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                 L’AGENCE </a>
-              <a href="#" title=""
+              <a href="#" title="" @click="hideMobileMenu()"
                 class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                 NOS SERVICES </a>
-              <a href="#" title=""
+              <a href="#" title="" @click="hideMobileMenu()"
                 class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                 NOS REALISATIONS </a>
             </div>
 
             <div class="hidden lg:flex lg:items-center lg:space-x-10">
-              <a href="#" title=""
+              <a href="#" title="" @click="hideMobileMenu()"
                 class="text-base font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                 Blog </a>
-              <NuxtLink to="/contacts" title="Contacts"
+              <NuxtLink to="/contacts" title="Contacts" @click="hideMobileMenu()"
                 class="text-base font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                 Contacts </NuxtLink>
             </div>
@@ -54,21 +54,21 @@
           <nav :class="{
             'hidden': !showMobileMenu
           }" class="flex flex-col py-4 space-y-2 lg:hidden">
-            <a href="#" title=""
+            <a href="#" title="" @click="hideMobileMenu()"
               class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> L'AGENCE </a>
 
-            <a href="#" title=""
+            <a href="#" title="" @click="hideMobileMenu()"
               class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> SERVICES
             </a>
 
-            <a href="#" title=""
+            <a href="#" title="" @click="hideMobileMenu()"
               class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600 uppercase">
               Réalisations
             </a>
 
             <a href="#" title=""
               class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> Blog </a>
-            <NuxtLink to="/contacts" title="Contacts"
+            <NuxtLink to="/contacts" title="Contacts" @click="hideMobileMenu()"
               class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> Contacts </NuxtLink>
           </nav>
         </div>
