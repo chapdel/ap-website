@@ -4,7 +4,7 @@
     <div>
       <header class="bg-white lg:py-8 font-branded">
         <div :class="{
-          'lg:fixed top-0 max-w-full w-full z-50 rounded-none': y > 100
+          'lg:fixed top-0 transition-all delay-100 max-w-full w-full z-50 rounded-none': y > 100
         }"
           class="px-4 mx-auto max-w-7xl bg-gray-50 rounded-xl sm:px-6 lg:px-8 transition-all delay-100 backdrop-blur-xl">
           <!-- lg+ -->
@@ -44,9 +44,9 @@
               <a href="#" title=""
                 class="text-base font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                 Blog </a>
-              <a href="#" title=""
+              <NuxtLink to="/contacts" title="Contacts"
                 class="text-base font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
-                Contacts </a>
+                Contacts </NuxtLink>
             </div>
           </nav>
 
@@ -68,8 +68,8 @@
 
             <a href="#" title=""
               class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> Blog </a>
-            <a href="#" title=""
-              class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> Contacts </a>
+            <NuxtLink to="/contacts" title="Contacts"
+              class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> Contacts </NuxtLink>
           </nav>
         </div>
       </header>
