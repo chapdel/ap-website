@@ -59,7 +59,7 @@
                 <div class="pt-8">
                     <NuxtLink to="/contacts"
                         class="p-4 mt-8 text-center text-white uppercase rounded-md bg-black/95 hover:bg-black">
-                        ACCROCHEZ-VOUS A LA POULIE MAINTENANT
+                        ACCROCHEZ-VOUS MAINTENANT
                     </NuxtLink>
                 </div>
             </div>
