@@ -6,7 +6,7 @@
         <div :class="{
           'lg:fixed top-0 transition-all delay-100 max-w-full w-full z-50 rounded-none': y > 100
         }"
-          class="px-4 mx-auto max-w-7xl bg-gray-50 rounded-xl sm:px-6 lg:px-8 transition-all delay-100 backdrop-blur-xl">
+          class="px-4 mx-auto transition-all delay-100 max-w-7xl bg-gray-50 rounded-xl sm:px-6 lg:px-8 backdrop-blur-xl">
           <!-- lg+ -->
           <nav class="relative flex items-center justify-between h-16 lg:rounded-lg lg:h-24 lg:px-8 lg:py-6">
             <div class="flex-shrink-0">
@@ -29,9 +29,9 @@
             </button>
 
             <div class="hidden ml-10 lg:flex lg:items-center lg:mr-auto lg:space-x-10">
-              <a href="#" title="" @click="hideMobileMenu()"
+              <NuxtLink to="/about" title="l'agence" @click="hideMobileMenu()"
                 class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
-                L’AGENCE </a>
+                L’AGENCE </NuxtLink>
               <a href="#" title="" @click="hideMobileMenu()"
                 class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                 NOS SERVICES </a>
@@ -54,31 +54,31 @@
           <nav :class="{
             'hidden': !showMobileMenu
           }" class="flex flex-col py-4 space-y-2 lg:hidden">
-            <a href="#" title="" @click="hideMobileMenu()"
-              class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> L'AGENCE </a>
+            <NuxtLink to="/about" title="l'agence" @click="hideMobileMenu()"
+              class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> L'AGENCE </NuxtLink>
 
             <a href="#" title="" @click="hideMobileMenu()"
               class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> SERVICES
             </a>
 
             <a href="#" title="" @click="hideMobileMenu()"
-              class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600 uppercase">
+              class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">
               Réalisations
             </a>
 
             <a href="#" title=""
               class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> Blog </a>
             <NuxtLink to="/contacts" title="Contacts" @click="hideMobileMenu()"
-              class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> Contacts </NuxtLink>
+              class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600"> Contacts </NuxtLink>
           </nav>
         </div>
       </header>
     </div>
     <NuxtPage />
-    <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800 mt-96*">
-      <div class="mx-auto max-w-screen-xl text-center">
-        <!-- <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
-          <svg class="mr-2 h-8" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <footer class="p-4 bg-white md:p-8 lg:p-10">
+      <div class="max-w-screen-xl mx-auto text-center">
+        <!-- <a href="#" class="flex items-center justify-center text-2xl font-semibold text-gray-900 dark:text-white">
+          <svg class="h-8 mr-2" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M25.2696 13.126C25.1955 13.6364 24.8589 14.3299 24.4728 14.9328C23.9856 15.6936 23.2125 16.2264 22.3276 16.4114L18.43 17.2265C17.8035 17.3575 17.2355 17.6853 16.8089 18.1621L14.2533 21.0188C13.773 21.5556 13.4373 21.4276 13.4373 20.7075C13.4315 20.7342 12.1689 23.9903 15.5149 25.9202C16.8005 26.6618 18.6511 26.3953 19.9367 25.6538L26.7486 21.7247C29.2961 20.2553 31.0948 17.7695 31.6926 14.892C31.7163 14.7781 31.7345 14.6639 31.7542 14.5498L25.2696 13.126Z"
               fill="url(#paint0_linear_11430_22515)" />
@@ -158,7 +158,7 @@
         </a> -->
         <!-- <p class="my-6 text-gray-500 dark:text-gray-400">Open-source library of over 400+ web components and interactive
           elements built for better web.</p> -->
-        <!-- <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+        <!-- <ul class="flex flex-wrap items-center justify-center mb-6 text-gray-900 dark:text-white">
         <li>
           <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
         </li>
@@ -201,3 +201,14 @@ const hideMobileMenu = () => {
 }
 
 </script>
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+</style>
