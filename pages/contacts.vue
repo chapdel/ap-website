@@ -15,14 +15,50 @@
                             class="block w-full p-4 text-gray-900 placeholder-gray-700 bg-gray-200 rounded-md outline-none ring-0 focus:ring-0 focus:outline-none">
                     </div>
                     <div>
-                        <label for="" class="text-gray-600">Email</label>
+                        <label for="" class="text-gray-600">Entreprise <span class="text-sm">(Optionel)</span></label>
                         <input type="email"
                             class="block w-full p-4 text-gray-900 placeholder-gray-700 bg-gray-200 rounded-md outline-none ring-0 focus:ring-0 focus:outline-none">
                     </div>
                     <div>
+                        <label for="" class="text-gray-600">Email</label>
+                        <input type="email"
+                            class="block w-full p-4 text-gray-900 placeholder-gray-700 bg-gray-200 rounded-md outline-none ring-0 focus:ring-0 focus:outline-none">
+                    </div>
+
+                    <div>
                         <label for="" class="text-gray-600">Télephone</label>
                         <input type="text"
                             class="block w-full p-4 text-gray-900 placeholder-gray-700 bg-gray-200 rounded-md outline-none ring-0 focus:ring-0 focus:outline-none">
+                    </div>
+                    <div>
+                        <label for="" class="text-gray-600">Votre café</label>
+                        <ul
+                            class="items-center w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                            <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+                                <div class="flex items-center pl-3">
+                                    <input id="coffee-type-license" type="radio" value="" name="coffee-type"
+                                        class="w-4 h-4 text-gray-600 bg-gray-100 border-gray-300 ring-gray-600 focus:ring-gray-500 dark:focus:ring-gray-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                    <label for="coffee-type-license"
+                                        class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Avec sucre </label>
+                                </div>
+                            </li>
+                            <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+                                <div class="flex items-center pl-3">
+                                    <input id="coffee-type-without-sugar" type="radio" value="" name="coffee-type"
+                                        class="w-4 h-4 text-gray-600 bg-gray-100 border-gray-300 ring-gray-600 focus:ring-gray-500 dark:focus:ring-gray-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                    <label for="coffee-type-without-sugar"
+                                        class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sans sucre</label>
+                                </div>
+                            </li>
+                            <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+                                <div class="flex items-center pl-3">
+                                    <input id="coffee-type-tea" type="radio" value="the" name="coffee-type"
+                                        class="w-4 h-4 text-gray-600 bg-gray-100 border-gray-300 ring-gray-600 focus:ring-gray-500 dark:focus:ring-gray-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                    <label for="coffee-type-tea"
+                                        class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Thé</label>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                     <div>
                         <label for="" class="text-gray-600">Message</label>
@@ -85,13 +121,12 @@
                         <div class="space-y-2">
                             <h2 class="text-2xl font-bold">Nous laisser un message sur Whatsapp?</h2>
                             <p class="text-xl text-gray-400">+33 767 791 110</p>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</template>
+</div></template>
 <script setup>
 useHead({
     title: "Contacts - L'Agence Poulie"
