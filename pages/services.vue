@@ -180,7 +180,7 @@
                             consectetur adipisicing elit. Nam doloribus fugiat, a sequi nemo recusandae non molestias in.
                         </p>
                         <div class="flex items-center justify-center mt-10 gap-x-6">
-                            <NuxtLink to="/contact"
+                            <NuxtLink to="/contacts"
                                 class="rounded-md bg-white px-3.5 py-1.5 text-base font-semibold leading-7 text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
                                 Faites le maintenant!</NuxtLink>
                             <NuxtLink to="/about" class="text-base font-semibold leading-7 text-white">Qui sommes nous?
