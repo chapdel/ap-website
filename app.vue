@@ -32,9 +32,9 @@
               <NuxtLink to="/about" title="l'agence" @click="hideMobileMenu()"
                 class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                 L’AGENCE </NuxtLink>
-              <a href="#" title="" @click="hideMobileMenu()"
+              <NuxtLink to="/services" title="" @click="hideMobileMenu()"
                 class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
-                NOS SERVICES </a>
+                NOS SERVICES </NuxtLink>
               <a href="#" title="" @click="hideMobileMenu()"
                 class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                 NOS REALISATIONS </a>
@@ -57,9 +57,9 @@
             <NuxtLink to="/about" title="l'agence" @click="hideMobileMenu()"
               class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> L'AGENCE </NuxtLink>
 
-            <a href="#" title="" @click="hideMobileMenu()"
+            <NuxtLink to="/services" title="" @click="hideMobileMenu()"
               class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600"> SERVICES
-            </a>
+            </NuxtLink>
 
             <a href="#" title="" @click="hideMobileMenu()"
               class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">
