@@ -36,6 +36,10 @@
                                       class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                                 L’AGENCE
                             </NuxtLink>
+                            <NuxtLink to="/services/marketing-dinfluence" title="" @click="hideMobileMenu()"
+                                      class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
+                                Marketing D'influence
+                            </NuxtLink>
                             <NuxtLink to="/services/creative-box" title="" @click="hideMobileMenu()"
                                       class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
                                 Creative Box
@@ -70,6 +74,10 @@
                             L'AGENCE
                         </NuxtLink>
 
+                        <NuxtLink to="/services/marketing-dinfluence" title="" @click="hideMobileMenu()"
+                                  class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600 uppercase">
+                            Makerting d'influence
+                        </NuxtLink>
                         <NuxtLink to="/services/creative-box" title="" @click="hideMobileMenu()"
                                   class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600 uppercase">
                             Creative Box
