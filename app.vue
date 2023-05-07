@@ -1,16 +1,15 @@
 <template>
     <div>
-
         <div>
             <header class="bg-white lg:py-8 font-branded">
                 <div :class="{
-          'lg:fixed top-0 transition-all delay-100 max-w-full w-full z-50 rounded-none': y > 100
-        }"
-                     class="px-4 mx-auto transition-all delay-100 max-w-7xl bg-gray-50 rounded-xl sm:px-6 lg:px-8 backdrop-blur-xl">
-                    <!-- lg+ -->
+                          'top-10 transition-all delay-100 lg:right-20 lg:left-20': y > 100,
+                          'lg:right-20 lg:left-20': y <= 100,
+                        }"
+                     class="px-4 fixed z-50 transition-all shadow rounded-xl delay-100 bg-gray-50 sm:px-6 lg:px-8 backdrop-blur-xl">
                     <nav class="relative flex items-center justify-between h-16 lg:rounded-lg lg:h-24 lg:px-8 lg:py-6">
                         <div class="flex-shrink-0">
-                            <NuxtLink to="/" title="Home" class="flex">
+                            <NuxtLink to="/" title="Accueil" class="flex">
                                 <img class="w-auto h-10 lg:h-16" src="/g395.svg" alt=""/>
                             </NuxtLink>
                         </div>
@@ -31,35 +30,33 @@
                             </svg>
                         </button>
 
-                        <div class="hidden ml-10 lg:flex lg:items-center lg:mr-auto lg:space-x-10">
+                        <div class="hidden ml-10 lg:flex lg:items-center lg:mr-auto lg:space-x-6">
                             <NuxtLink to="/about" title="l'agence" @click="hideMobileMenu()"
-                                      class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
+                                      class="text-sm font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                                 L’AGENCE
                             </NuxtLink>
                             <NuxtLink to="/services/marketing-dinfluence" title="" @click="hideMobileMenu()"
-                                      class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
+                                      class="text-sm font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
                                 Marketing D'influence
                             </NuxtLink>
                             <NuxtLink to="/services/creative-box" title="" @click="hideMobileMenu()"
-                                      class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
+                                      class="text-sm font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
                                 Creative Box
                             </NuxtLink>
                             <NuxtLink to="/services/sites-apps" title="" @click="hideMobileMenu()"
-                                      class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
+                                      class="text-sm font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
                                 Sites et Apps
                             </NuxtLink>
                             <NuxtLink to="/services/voxbox" title="" @click="hideMobileMenu()"
-                                      class="text-base font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
+                                      class="text-sm font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
                                 Voxbox
                             </NuxtLink>
                         </div>
 
                         <div class="hidden lg:flex lg:items-center lg:space-x-10">
-                            <a href="#" title="" @click="hideMobileMenu()"
-                               class="text-base font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
-                                Blog </a>
+                            <a href="https://blog.agencepoulie.com" class="text-sm font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600" target="_blank">Blog</a>
                             <NuxtLink to="/contacts" title="Contacts" @click="hideMobileMenu()"
-                                      class="text-base font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
+                                      class="text-sm font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                                 Contacts
                             </NuxtLink>
                         </div>
@@ -90,10 +87,6 @@
                                   class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600 uppercase">
                             Voxbox
                         </NuxtLink>
-
-                        <a href="#" title=""
-                           class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600">
-                            Blog </a>
                         <NuxtLink to="/contacts" title="Contacts" @click="hideMobileMenu()"
                                   class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">
                             Contacts

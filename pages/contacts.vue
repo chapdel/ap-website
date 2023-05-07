@@ -1,8 +1,8 @@
 <template>
-    <div class="px-4 space-y-6">
+    <div class="px-4 space-y-6 mt-12">
         <div class="max-w-screen-lg py-16 mx-auto rounded-lg">
-            <h1 class="text-3xl lg:text-5xl">Nous Contacter</h1>
-            <p class="max-w-lg text-lg text-gray-600">
+            <h1 class="text-3xl lg:text-5xl font-bold">Nous Contacter</h1>
+            <p class="max-w-lg text-xl text-gray-700">
                 Prenez contact avec nous et discutons de votre projet.
             </p>
         </div>
@@ -119,7 +119,7 @@
                         </svg>
 
                         <div class="space-y-2">
-                            <h2 class="text-2xl font-bold">Nous laisser un message sur Whatsapp?</h2>
+                            <h2 class="text-2xl font-bold">Nous laisser un message Whatsapp?</h2>
                             <p class="text-xl text-gray-400">+33 767 791 110</p>
                     </div>
                 </div>
