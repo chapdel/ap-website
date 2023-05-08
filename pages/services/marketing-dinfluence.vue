@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="lg:mt-20">
         <section class="bg-white">
-            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-12 xl:gap-0 lg:grid-cols-12">
-                <div class="mr-auto place-self-center lg:col-span-7 xl:col-span-8">
+            <div  class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-12 xl:gap-0 lg:grid-cols-12">
+                <div data-aos="fade-right" data-aos-delay="300" class="mr-auto place-self-center lg:col-span-7 xl:col-span-8">
                     <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
                         Marketing d'influence</h1>
                     <p class="max-w-2xl mb-6 font-light text-gray-700 lg:mb-8 md:text-lg lg:text-xl">
@@ -16,7 +16,7 @@
                     </p>
 
                 </div>
-                <div class="hidden lg:mt-0 lg:col-span-5 xl:col-span-4 lg:flex">
+                <div data-aos="fade-left" data-aos-delay="300" class="hidden lg:mt-0 lg:col-span-5 xl:col-span-4 lg:flex">
                     <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mobile-app.svg"
                          alt="phone illustration">
                 </div>
@@ -25,14 +25,14 @@
         <section class="overflow-hidden relative bg-white">
             <div class="gap-8 py-8 px-4 mx-auto max-w-screen-xl lg:py-16 xl:grid xl:grid-cols-12">
 
-                <div class="lg:col-span-4">
+                <div  class="lg:col-span-4">
                     <div class="hidden absolute top-0 left-0 w-1/3 h-full xl:block">
-                        <img class="object-cover w-full h-full"
+                        <img data-aos="fade-right" data-aos-delay="300" class="object-cover w-full h-full"
                              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/conference-speaker.jpg"
                              alt="Conference speaker">
                     </div>
                 </div>
-                <div class="col-span-8">
+                <div data-aos="fade-left" data-aos-delay="300" class="col-span-8">
                     <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-3xl max-w-lg">
                         ATTENTION : <span class="capitalize">le choix d’un influenceur est une tâche d’experts</span></h1>
                     <p class="mb-6 font-light text-gray-700 lg:mb-8 md:text-lg lg:text-xl">Le choix d'un influenceur
@@ -112,7 +112,7 @@
                     <div class="px-4 pt-8 mx-auto max-w-screen-xl">
                         <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                             <a href="#" class="inline-flex items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-black focus:ring-4 focus:ring-primary-300">
-                                Discover locations
+                                Trouver un influencer
                             </a>
                             <button class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">
                                 Devenir un influenceur
@@ -127,10 +127,10 @@
     </div>
 </template>
 
-<script>
-export default {
-    name: "marketing-dinfluence"
-}
+<script setup>
+useHead({
+    title: "Marketing d'influence - L'Agence Poulie"
+})
 </script>
 
 <style scoped>

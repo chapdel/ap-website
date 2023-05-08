@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="lg:mt-32">
         <div class="mx-auto flex flex-col items-center gap-6 sm:w-4/5 md:w-full md:flex-row lg:gap-12 px-4">
-            <div class="relative md:w-1/2">
+            <div class="relative md:w-1/2" data-aos="fade-right" data-aos-delay="300">
                 <div aria-hidden="true"
                      class="absolute inset-0 m-auto grid h-3/5 w-3/5 grid-cols-2 -space-x-52 opacity-40 dark:opacity-60">
                     <div class="h-full rounded-full bg-gradient-to-br from-primary to-purple-400 blur-[106px] dark:from-blue-700"></div>
@@ -10,25 +10,23 @@
                 <img class="relative rounded" src="/voxbox-hero.jpg" alt="stats illustration"
                      width="1746" height="1746">
             </div>
-            <div class="ml-auto h-full md:w-1/2">
+            <div class="ml-auto h-full md:w-1/2" data-aos="fade-left" data-aos-delay="300">
                 <h1 class="text-5xl font-black md:text-6xl xl:text-7xl">Creative Box</h1>
                 <div class="">
                     <p class="mt-8 text-lg text-gray-700">Si vous pouvez le rêver, nous pouvons le créer, parce que pour
                         nous, la créativité est une drogue qui nous pousse chaque jour à faire quelque chose qui effraie
                         vos concurrents</p>
                     <div class="mt-12 flex justify-center gap-4 sm:gap-6 md:justify-start">
-                        <NuxtLink to="/contacts"
+                        <NuxtLink to="/contacts" data-aos="fade-up" data-aos-delay="300"
                                   class="block w-full p-4 text-center text-white uppercase rounded-md lg:w-8/12 bg-black/95 hover:bg-black">
                             S"ACCROCHEZ à LA POULIE
                         </NuxtLink>
                     </div>
                 </div>
-
-
             </div>
         </div>
         <div class="relative" id="features">
-            <div class="mx-auto max-w-6xl px-6 md:px-12 lg:px-6 xl:px-0">
+            <div class="mx-auto max-w-6xl px-6 md:px-12 lg:px-6 xl:px-0" data-aos="fade-up" data-aos-delay="300">
                 <div class="md:w-3/5 mt-16 lg:mt-32">
                     <h2 class="text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl">
                         Nos prestations</h2>
@@ -229,7 +227,7 @@
                 </div>
             </div>
         </div>
-        <section class="lg:mt-24">
+        <section class="lg:mt-24" data-aos="fade-down" data-aos-delay="300">
             <div
                     class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
             >
@@ -296,4 +294,7 @@
     </div>
 </template>
 <script setup lang="ts">
+useHead({
+    title: "Creative box - L'Agence Poulie"
+})
 </script>

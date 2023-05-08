@@ -2,21 +2,15 @@
     <div class="mb-40">
         <div class="-mt-40 -z-20">
             <section class="relative bg-[url('https://lawind-tail.netlify.app/assets/images/home-line.png')] bg-black/75 bg-cover bg-center bg-no-repeat" id="home">
-                <div class="mx-auto max-w-7xl relative">
+                <div class="mx-auto max-w-6xl lg:mt-20 relative">
                     <div class="grid grid-cols-1">
                         <div class="max-w-[810px] md:text-left text-center py-32 md:pb-40 md:pt-64 relative">
                             <div class="absolute right-40 lg:block hidden">
                                 <img src="https://lawind-tail.netlify.app/assets/images/dollar.png" alt="">
                             </div>
-                            <div class="relative z-20">
+                            <div class="relative z-20" data-aos="fade-up" data-aos-delay="300">
                                 <h1 class="text-white text-4xl leading-snug md:text-[60px] md:leading-[90px] font-extrabold">L'agence Poulie</h1>
-                                <p class="text-muted mt-5 text-xl">Analyse et strategie</p>
-                                <div class="mt-[50px] space-x-[30px] flex items-stretch md:justify-start justify-center">
-                                    <a href="#" class="btn-dark">get started</a>
-                                    <a href="#" class="border-2 border-white hover:shadow-[5px_6px_0px] hover:shadow-white transition-all duration-300 h-12 w-12 flex items-center justify-center rounded-[10px]">
-                                        <img src="https://lawind-tail.netlify.app/assets/images/play-icon.svg" class="inline-block" alt="">
-                                    </a>
-                                </div>
+                                <p class="text-white font-semibold mt-5 text-xl">Analyse et strategie</p>
                             </div>
                         </div>
                     </div>

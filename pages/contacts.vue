@@ -1,33 +1,33 @@
 <template>
     <div class="px-4 space-y-6 mt-12">
-        <div class="max-w-screen-lg py-16 mx-auto rounded-lg">
+        <div class="max-w-screen-lg py-16 mx-auto rounded-lg" data-aos="fade-down" data-aos-delay="300">
             <h1 class="text-3xl lg:text-5xl font-bold">Nous Contacter</h1>
             <p class="max-w-lg text-xl text-gray-700">
                 Prenez contact avec nous et discutons de votre projet.
             </p>
         </div>
         <div class="grid max-w-screen-lg grid-cols-1 mx-auto lg:grid-cols-2 gap-x-12 gap-y-6">
-            <div class="max-w-lg">
-                <form @submit.prevent="" class="grid grid-cols-1 gap-4">
+            <div class="max-w-lg" data-aos="fade-right" data-aos-delay="300">
+                <form @submit.prevent="send" class="grid grid-cols-1 gap-4">
                     <div>
                         <label for="" class="text-gray-600">Nom</label>
-                        <input type="text"
+                        <input type="text" name="name" required v-model="form.name"
                             class="block w-full p-4 text-gray-900 placeholder-gray-700 bg-gray-200 rounded-md outline-none ring-0 focus:ring-0 focus:outline-none">
                     </div>
                     <div>
                         <label for="" class="text-gray-600">Entreprise <span class="text-sm">(Optionel)</span></label>
-                        <input type="email"
+                        <input type="text" name="company" v-model="form.company"
                             class="block w-full p-4 text-gray-900 placeholder-gray-700 bg-gray-200 rounded-md outline-none ring-0 focus:ring-0 focus:outline-none">
                     </div>
                     <div>
                         <label for="" class="text-gray-600">Email</label>
-                        <input type="email"
+                        <input type="email" name="email" required v-model="form.email"
                             class="block w-full p-4 text-gray-900 placeholder-gray-700 bg-gray-200 rounded-md outline-none ring-0 focus:ring-0 focus:outline-none">
                     </div>
 
                     <div>
                         <label for="" class="text-gray-600">Télephone</label>
-                        <input type="text"
+                        <input type="text" required name="phone" v-model="form.phone"
                             class="block w-full p-4 text-gray-900 placeholder-gray-700 bg-gray-200 rounded-md outline-none ring-0 focus:ring-0 focus:outline-none">
                     </div>
                     <div>
@@ -36,7 +36,7 @@
                             class="items-center w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                             <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                                 <div class="flex items-center pl-3">
-                                    <input id="coffee-type-license" type="radio" value="" name="coffee-type"
+                                    <input  id="coffee-type-license" type="radio" v-model="form.coffee" value="Cafe avec sucre" name="coffee-type"
                                         class="w-4 h-4 text-gray-600 bg-gray-100 border-gray-300 ring-gray-600 focus:ring-gray-500 dark:focus:ring-gray-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
                                     <label for="coffee-type-license"
                                         class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Avec sucre </label>
@@ -44,7 +44,7 @@
                             </li>
                             <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                                 <div class="flex items-center pl-3">
-                                    <input id="coffee-type-without-sugar" type="radio" value="" name="coffee-type"
+                                    <input  id="coffee-type-without-sugar" type="radio" v-model="form.coffee" value="Café Sans sucre" name="coffee-type"
                                         class="w-4 h-4 text-gray-600 bg-gray-100 border-gray-300 ring-gray-600 focus:ring-gray-500 dark:focus:ring-gray-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
                                     <label for="coffee-type-without-sugar"
                                         class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sans sucre</label>
@@ -52,7 +52,7 @@
                             </li>
                             <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                                 <div class="flex items-center pl-3">
-                                    <input id="coffee-type-tea" type="radio" value="the" name="coffee-type"
+                                    <input  id="coffee-type-tea" v-model="form.coffee" type="radio" value="The" name="coffee-type"
                                         class="w-4 h-4 text-gray-600 bg-gray-100 border-gray-300 ring-gray-600 focus:ring-gray-500 dark:focus:ring-gray-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
                                     <label for="coffee-type-tea"
                                         class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Thé</label>
@@ -62,18 +62,18 @@
                     </div>
                     <div>
                         <label for="" class="text-gray-600">Message</label>
-                        <textarea
+                        <textarea name="message" v-model="form.message"
                             class="block w-full p-4 text-gray-900 placeholder-gray-700 bg-gray-200 rounded-md outline-none ring-0 focus:ring-0 focus:outline-none"
                             rows="5"></textarea>
                     </div>
                     <div>
-                        <button class="block w-full p-4 text-white rounded-md bg-black/95 hover:bg-black">
+                        <button type="submit" class="block w-full p-4 text-white rounded-md bg-black/95 hover:bg-black">
                             Envoyer le message
                         </button>
                     </div>
                 </form>
             </div>
-            <div class="my-4 lg:mt-0">
+            <div class="my-4 lg:mt-0" data-aos="fade-left" data-aos-delay="300">
                 <div class="px-6 py-10 space-y-4 text-gray-100 bg-black lg:space-y-6 rounded-xl">
                     <div class="flex items-baseline space-x-3">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -128,7 +128,42 @@
     </div>
 </div></template>
 <script setup>
+import emailjs from '@emailjs/browser';
+import { email, required } from '@vuelidate/validators'
+import { useVuelidate } from '@vuelidate/core'
+import { reactive } from 'vue'
 useHead({
     title: "Contacts - L'Agence Poulie"
 })
+
+const validation =  useVuelidate({
+    name: { required },
+    message: { required },
+    phone: { required },
+    email: { required, email }
+})
+
+var form  = reactive({
+    name: '',
+    message: '',
+    email: '',
+    company: '',
+    coffee: '',
+    phone: ''
+})
+
+const send = () => {
+    alert('ddd')
+    emailjs.send('service_ecuvj6k', 'template_64pxh2g', form, 'My6bqwxgisKpUAJSj').then((result) => {
+        console.log('SUCCESS!', result.text);
+        form.email = "";
+        form.phone = "";
+        form.coffee = "";
+        form.company = "";
+        form.message = "";
+        form.name = "";
+    }, (error) => {
+        console.log('FAILED...', error.text);
+    });
+}
 </script>

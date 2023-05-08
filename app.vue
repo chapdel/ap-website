@@ -3,8 +3,8 @@
         <div>
             <header class="bg-white lg:py-8 font-branded">
                 <div :class="{
-                          'top-10 transition-all delay-100 lg:right-20 lg:left-20': y > 100,
-                          'lg:right-20 lg:left-20': y <= 100,
+                          'top-0 lg:top-10 left-0 right-0 transition-all delay-100 lg:right-20 lg:left-20': y > 100,
+                          'lg:top-10 top-0 left-0 right-0 lg:right-20 lg:left-20': y <= 100,
                         }"
                      class="px-4 fixed z-50 transition-all shadow rounded-xl delay-100 bg-gray-50 sm:px-6 lg:px-8 backdrop-blur-xl">
                     <nav class="relative flex items-center justify-between h-16 lg:rounded-lg lg:h-24 lg:px-8 lg:py-6">
@@ -87,6 +87,10 @@
                                   class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600 uppercase">
                             Voxbox
                         </NuxtLink>
+                        <a href="https://blog.agencepoulie.com" title="Contacts" @click="hideMobileMenu()"
+                                  class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">
+                            BLOG
+                        </a>
                         <NuxtLink to="/contacts" title="Contacts" @click="hideMobileMenu()"
                                   class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">
                             Contacts

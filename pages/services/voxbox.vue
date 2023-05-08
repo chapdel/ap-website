@@ -1,35 +1,6 @@
 <template>
     <div>
-        <!--    <section>
-                <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                    <div class="grid gap-5 row-gap-8 lg:grid-cols-2">
-                        <div class="flex flex-col justify-center">
-                            <div class="max-w-xl mb-6 space-y-4">
-                                <h1 class="text-5xl font-black md:text-6xl xl:text-7xl">Voxbox</h1>
-                                <p class="text-base text-gray-700 md:text-lg">
-                                    Votre âme est invisible, mais pour savoir à quoi elle ressemble on écoute juste votre VOIX
-                                </p>
-                                <div class="mt-12 flex justify-center gap-4 sm:gap-6 md:justify-start">
-                                    <NuxtLink to="/contacts"
-                                              class="block w-full p-4 text-center text-white uppercase rounded-md lg:w-8/12 bg-black/95 hover:bg-black">
-                                        S"ACCROCHEZ à LA POULIE
-                                    </NuxtLink>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="relative">
-                            <img src="/voxbox-hero.jpg" class="rounded-lg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>-->
-        <!--
-      Heads up! 👋
-
-      This component comes with some `rtl` classes. Please remove them they are not needed in your project.
-    -->
-
-        <section>
+        <section class="lg:mt-20">
             <div class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                 <div
                         class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16"
@@ -37,13 +8,13 @@
                     <div
                             class="max-w-lg lg:mx-0 ltr:lg:text-left rtl:lg:text-right"
                     >
-                        <h1 class="text-5xl font-black md:text-6xl xl:text-7xl">LA VOXBOX</h1>
+                        <h1 class="text-5xl font-black md:text-6xl xl:text-7xl" data-aos="fade-up" data-aos-delay="300">LA VOXBOX</h1>
 
-                        <p class="mt-4 text-gray-600">
+                        <p class="mt-4 text-gray-600 text-lg lg:text-xl" data-aos="fade-up" data-aos-delay="300">
                             Votre âme est invisible, mais pour savoir à quoi elle ressemble on écoute juste votre VOIX
                         </p>
 
-                        <div class="mt-12 flex justify-center gap-4 sm:gap-6 md:justify-start">
+                        <div data-aos="fade-up" data-aos-delay="300" class="mt-12 flex justify-center gap-4 sm:gap-6 md:justify-start">
                             <NuxtLink to="/contacts"
                                       class="block w-full p-4 text-center text-white uppercase rounded-md lg:w-8/12 bg-black/95 hover:bg-black">
                                 S"ACCROCHEZ à LA POULIE
@@ -51,7 +22,7 @@
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
+                    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3" data-aos="fade-up" data-aos-delay="300">
                         <a
                                 class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
                                 href="#"
@@ -78,10 +49,6 @@
                         </span>
 
                             <h2 class="mt-2 font-bold">VOIX OFF</h2>
-
-                            <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
                         </a>
                         <a
                                 class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
@@ -109,10 +76,6 @@
                         </span>
 
                             <h2 class="mt-2 font-bold">COACHING VOCAL & DE PRISE DE PAROLE EN PUBLIC </h2>
-
-                            <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
                         </a>
                         <a
                                 class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
@@ -140,10 +103,6 @@
                         </span>
 
                             <h2 class="mt-2 font-bold"> DOUBLAGE  </h2>
-
-                            <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
                         </a>
                         <a
                                 class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
@@ -171,10 +130,6 @@
                         </span>
 
                             <h2 class="mt-2 font-bold">POSTPRODUCTION </h2>
-
-                            <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
                         </a>
                         <a
                                 class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
@@ -202,10 +157,6 @@
                         </span>
 
                             <h2 class="mt-2 font-bold">TRADUCTION </h2>
-
-                            <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
                         </a>
 
                     </div>
@@ -216,7 +167,7 @@
             <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
 
                 <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-                    <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+                    <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full" data-aos="fade-right" data-aos-delay="300">
                         <img
                                 alt="Party"
                                 src="/voxbox-hero.jpg"
@@ -224,7 +175,7 @@
                         />
                     </div>
 
-                    <div class="lg:py-16">
+                    <div class="lg:py-16 text-lg lg:text-xl" data-aos="fade-left" data-aos-delay="300">
                         <article class="space-y-4 text-gray-600">
                             <p>
                                 La VOXBOX est un service de coaching vocal, prise de parole en public et d’enregistrement de voix off. Nous accompagnons les annonceurs, les agences de communication, les studios de production, les entreprises privées et publiques et les célébrités dans toutes les étapes de leur projet audio et de communication en public.
@@ -240,7 +191,7 @@
         </section>
 
         <section>
-            <div class="mt-12 bg-white">
+            <div class="mt-12 bg-white" data-aos="fade-up" data-aos-delay="300">
                 <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div
                             class="relative px-6 py-24 overflow-hidden text-center bg-gray-900 shadow-2xl isolate sm:rounded-3xl sm:px-16">
@@ -279,10 +230,10 @@
     </div>
 </template>
 
-<script>
-export default {
-    name: "voxbox"
-}
+<script setup>
+useHead({
+    title: "Vox box - L'Agence Poulie"
+})
 </script>
 
 <style scoped>
