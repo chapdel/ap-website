@@ -10,26 +10,26 @@
                     >
                         <h1 class="text-5xl font-black md:text-6xl xl:text-7xl" data-aos="fade-up" data-aos-delay="300">LA VOXBOX</h1>
 
-                        <p class="mt-4 text-gray-600 text-lg lg:text-xl" data-aos="fade-up" data-aos-delay="300">
+                        <p class="mt-4 text-lg text-gray-600 lg:text-xl" data-aos="fade-up" data-aos-delay="300">
                             Votre âme est invisible, mais pour savoir à quoi elle ressemble on écoute juste votre VOIX
                         </p>
 
-                        <div data-aos="fade-up" data-aos-delay="300" class="mt-12 flex justify-center gap-4 sm:gap-6 md:justify-start">
+                        <div data-aos="fade-up" data-aos-delay="300" class="flex justify-center gap-4 mt-12 sm:gap-6 md:justify-start">
                             <NuxtLink to="/contacts"
                                       class="block w-full p-4 text-center text-white uppercase rounded-md lg:w-8/12 bg-black/95 hover:bg-black">
-                                S"ACCROCHEZ à LA POULIE
+                                S"ACCROCHER à LA POULIE
                             </NuxtLink>
                         </div>
                     </div>
 
                     <div class="grid grid-cols-2 gap-4 sm:grid-cols-3" data-aos="fade-up" data-aos-delay="300">
                         <a
-                                class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                                class="block p-4 border border-gray-100 shadow-sm rounded-xl hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
                                 href="#"
                         >
-                        <span class="inline-block rounded-lg bg-gray-50 p-3">
+                        <span class="inline-block p-3 rounded-lg bg-gray-50">
                           <svg
-                                  class="h-6 w-6"
+                                  class="w-6 h-6"
                                   fill="none"
                                   stroke="currentColor"
                                   viewBox="0 0 24 24"
@@ -51,12 +51,12 @@
                             <h2 class="mt-2 font-bold">VOIX OFF</h2>
                         </a>
                         <a
-                                class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                                class="block p-4 border border-gray-100 shadow-sm rounded-xl hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
                                 href="#"
                         >
-                        <span class="inline-block rounded-lg bg-gray-50 p-3">
+                        <span class="inline-block p-3 rounded-lg bg-gray-50">
                           <svg
-                                  class="h-6 w-6"
+                                  class="w-6 h-6"
                                   fill="none"
                                   stroke="currentColor"
                                   viewBox="0 0 24 24"
@@ -78,12 +78,12 @@
                             <h2 class="mt-2 font-bold">COACHING VOCAL & DE PRISE DE PAROLE EN PUBLIC </h2>
                         </a>
                         <a
-                                class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                                class="block p-4 border border-gray-100 shadow-sm rounded-xl hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
                                 href="#"
                         >
-                        <span class="inline-block rounded-lg bg-gray-50 p-3">
+                        <span class="inline-block p-3 rounded-lg bg-gray-50">
                           <svg
-                                  class="h-6 w-6"
+                                  class="w-6 h-6"
                                   fill="none"
                                   stroke="currentColor"
                                   viewBox="0 0 24 24"
@@ -105,12 +105,12 @@
                             <h2 class="mt-2 font-bold"> DOUBLAGE  </h2>
                         </a>
                         <a
-                                class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                                class="block p-4 border border-gray-100 shadow-sm rounded-xl hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
                                 href="#"
                         >
-                        <span class="inline-block rounded-lg bg-gray-50 p-3">
+                        <span class="inline-block p-3 rounded-lg bg-gray-50">
                           <svg
-                                  class="h-6 w-6"
+                                  class="w-6 h-6"
                                   fill="none"
                                   stroke="currentColor"
                                   viewBox="0 0 24 24"
@@ -132,12 +132,12 @@
                             <h2 class="mt-2 font-bold">POSTPRODUCTION </h2>
                         </a>
                         <a
-                                class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                                class="block p-4 border border-gray-100 shadow-sm rounded-xl hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
                                 href="#"
                         >
-                        <span class="inline-block rounded-lg bg-gray-50 p-3">
+                        <span class="inline-block p-3 rounded-lg bg-gray-50">
                           <svg
-                                  class="h-6 w-6"
+                                  class="w-6 h-6"
                                   fill="none"
                                   stroke="currentColor"
                                   viewBox="0 0 24 24"
@@ -164,18 +164,18 @@
             </div>
         </section>
         <section>
-            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+            <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 sm:py-24 lg:px-8">
 
-                <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+                <div class="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-16">
                     <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full" data-aos="fade-right" data-aos-delay="300">
                         <img
                                 alt="Party"
                                 src="/voxbox-hero.jpg"
-                                class="absolute inset-0 h-full w-full object-cover"
+                                class="absolute inset-0 object-cover w-full h-full"
                         />
                     </div>
 
-                    <div class="lg:py-16 text-lg lg:text-xl" data-aos="fade-left" data-aos-delay="300">
+                    <div class="text-lg lg:py-16 lg:text-xl" data-aos="fade-left" data-aos-delay="300">
                         <article class="space-y-4 text-gray-600">
                             <p>
                                 La VOXBOX est un service de coaching vocal, prise de parole en public et d’enregistrement de voix off. Nous accompagnons les annonceurs, les agences de communication, les studios de production, les entreprises privées et publiques et les célébrités dans toutes les étapes de leur projet audio et de communication en public.

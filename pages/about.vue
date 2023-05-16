@@ -1,6 +1,6 @@
 <template>
     <div class="lg:mt-32">
-        <div class="grid max-w-screen-lg grid-cols-1 gap-12 px-4 mx-auto mt-16 lg:grid-cols-2">
+        <div class="grid max-w-screen-xl grid-cols-1 gap-12 px-4 mx-auto mt-16 lg:grid-cols-2">
             <div class="order-1 space-y-3 lg:space-y-6 lg:order-0">
                 <h1 class="text-5xl font-bold uppercase lg:text-5xl" data-aos="fade-up" data-aos-delay="300">L'agence</h1>
                 <p class="text-lg" data-aos="fade-up" data-aos-delay="300">Une poulie est un dispositif mécanique qui permet de hisser des objets à une hauteur peu
@@ -11,7 +11,7 @@
 
                 <NuxtLink to="/contacts" data-aos="fade-up" data-aos-delay="300"
                     class="block w-full p-4 text-center text-white uppercase rounded-md lg:w-8/12 bg-black/95 hover:bg-black">
-                    S"ACCROCHEZ à LA POULIE
+                    S'ACCROCHER à LA POULIE
                 </NuxtLink>
             </div>
             <div class="flex lg:justify-center order-0 lg:order-1" data-aos="fade-up" data-aos-delay="300">

@@ -1,7 +1,7 @@
 <template>
-    <div class="px-4 space-y-6 mt-12">
+    <div class="px-4 mt-12 space-y-6">
         <div class="max-w-screen-lg py-16 mx-auto rounded-lg" data-aos="fade-down" data-aos-delay="300">
-            <h1 class="text-3xl lg:text-5xl font-bold">Nous Contacter</h1>
+            <h1 class="text-3xl font-bold lg:text-5xl">Nous Contacter</h1>
             <p class="max-w-lg text-xl text-gray-700">
                 Prenez contact avec nous et discutons de votre projet.
             </p>
@@ -31,7 +31,7 @@
                             class="block w-full p-4 text-gray-900 placeholder-gray-700 bg-gray-200 rounded-md outline-none ring-0 focus:ring-0 focus:outline-none">
                     </div>
                     <div>
-                        <label for="" class="text-gray-600">Votre café</label>
+                        <label for="" class="text-gray-600">Votre café vous le voulez comment?</label>
                         <ul
                             class="items-center w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                             <li class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
