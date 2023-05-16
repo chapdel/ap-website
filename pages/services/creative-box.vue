@@ -19,7 +19,7 @@
                     <div class="mt-12 flex justify-center gap-4 sm:gap-6 md:justify-start">
                         <NuxtLink to="/contacts" data-aos="fade-up" data-aos-delay="300"
                                   class="block w-full p-4 text-center text-white uppercase rounded-md lg:w-8/12 bg-black/95 hover:bg-black">
-                            S"ACCROCHEZ à LA POULIE
+                            S"ACCROCHER à LA POULIE
                         </NuxtLink>
                     </div>
                 </div>
