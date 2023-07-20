@@ -6,7 +6,7 @@
                           'top-0 lg:top-10 left-0 right-0 transition-all delay-100 lg:right-20 lg:left-20': y > 100,
                           'lg:top-10 top-0 left-0 right-0 lg:right-20 lg:left-20': y <= 100,
                         }"
-                     class="px-4 fixed z-50 transition-all shadow rounded-xl delay-100 bg-gray-50 sm:px-6 lg:px-8 backdrop-blur-xl">
+                     class="fixed z-50 px-4 transition-all delay-100 shadow rounded-xl bg-gray-50 sm:px-6 lg:px-8 backdrop-blur-xl">
                     <nav class="relative flex items-center justify-between h-16 lg:rounded-lg lg:h-24 lg:px-8 lg:py-6">
                         <div class="flex-shrink-0">
                             <NuxtLink to="/" title="Accueil" class="flex">
@@ -31,25 +31,29 @@
                         </button>
 
                         <div class="hidden ml-10 lg:flex lg:items-center lg:mr-auto lg:space-x-6">
+                          <!-- <NuxtLink to="/" title="l'agence" @click="hideMobileMenu()"
+                                      class="text-sm font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
+                                ACCUEIL
+                            </NuxtLink> -->
                             <NuxtLink to="/about" title="l'agence" @click="hideMobileMenu()"
                                       class="text-sm font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                                 L’AGENCE
                             </NuxtLink>
                             <NuxtLink to="/services/marketing-dinfluence" title="" @click="hideMobileMenu()"
-                                      class="text-sm font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
+                                      class="text-sm font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                                 Marketing D'influence
                             </NuxtLink>
                             <NuxtLink to="/services/creative-box" title="" @click="hideMobileMenu()"
-                                      class="text-sm font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
+                                      class="text-sm font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                                 Creative Box
                             </NuxtLink>
                             <NuxtLink to="/services/sites-apps" title="" @click="hideMobileMenu()"
-                                      class="text-sm font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
+                                      class="text-sm font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                                 Sites et Apps
                             </NuxtLink>
-                            <NuxtLink to="/services/voxbox" title="" @click="hideMobileMenu()"
-                                      class="text-sm font-medium text-black transition-all duration-200 hover:text-gray-600 focus:text-gray-600 uppercase">
-                                Voxbox
+                            <NuxtLink to="/services/boite-noire" title="" @click="hideMobileMenu()"
+                                      class="text-sm font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
+                                Boite Noire
                             </NuxtLink>
                         </div>
 
@@ -72,20 +76,20 @@
                         </NuxtLink>
 
                         <NuxtLink to="/services/marketing-dinfluence" title="" @click="hideMobileMenu()"
-                                  class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600 uppercase">
+                                  class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">
                             Makerting d'influence
                         </NuxtLink>
                         <NuxtLink to="/services/creative-box" title="" @click="hideMobileMenu()"
-                                  class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600 uppercase">
+                                  class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">
                             Creative Box
                         </NuxtLink>
                         <NuxtLink to="/services/sites-apps" title="" @click="hideMobileMenu()"
-                                  class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600 uppercase">
+                                  class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">
                             Sites et Apps
                         </NuxtLink>
-                        <NuxtLink to="/services/voxbox" title="" @click="hideMobileMenu()"
-                                  class="py-2 text-base font-medium text-black transition-all duration-200 focus:text-gray-600 uppercase">
-                            Voxbox
+                        <NuxtLink to="/services/boite-noire" title="" @click="hideMobileMenu()"
+                                  class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">
+                            Boite Noire
                         </NuxtLink>
                         <a href="https://blog.agencepoulie.com" title="Contacts" @click="hideMobileMenu()"
                                   class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">

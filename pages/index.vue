@@ -2,7 +2,7 @@
     <div class="mb-40 overflow-x-hidden">
         <div class="-mt-40 -z-20">
             <section
-                class="relative bg-[url('https://lawind-tail.netlify.app/assets/images/home-line.png')] bg-black/75 bg-cover bg-center bg-no-repeat"
+                class="relative bg-[url('https://lawind-tail.netlify.app/assets/images/home-line.png')] bg-black/95 bg-cover bg-center bg-no-repeat"
                 id="home">
                 <div class="relative max-w-6xl mx-auto lg:mt-20">
                     <div class="grid grid-cols-1">
@@ -13,7 +13,7 @@
                             <div class="relative z-20 px-4 pt-32 lg:pt-0 lg:px-0" data-aos="fade-up" data-aos-delay="300">
                                 <h1
                                     class="text-white text-4xl leading-snug md:text-[60px] md:leading-[90px] font-extrabold">
-                                    L'agence Poulie</h1>
+                                    L'Agence Poulie</h1>
                                 <p class="max-w-lg mt-5 text-2xl font-semibold text-white">Vous avez des objectifs que vous
                                     ne voyez qu’à distance et que vous souhaitez atteindre ? Ne vous inquiétez pas !</p>
                                 <p class="max-w-lg mt-5 text-xl font-semibold text-white">Pour vous y accompagner, nous
@@ -736,14 +736,69 @@
         <div class="px-4 mt-6 bg-white section lg:px-0">
             <div class="container">
                 <div class="max-w-6xl mx-auto space-y-20 lg:space-y-32">
+                    <div class="items-center  hidden">
+                        <div data-aos="fade-right" data-aos-delay="300"
+                            class="relative transform md:w-7/12 lg:scale-110 xl:-translate-x-20 md:-translate-x-10">
+                            <img src="/engine-block.png" alt="">
+                            <div  class="absolute left-20 top-20 text-black/90	">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-52 h-52 animate-spin">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095-5.13l1.41-.513M5.106 17.785l1.15-.964m11.49-9.642l1.149-.964M7.501 19.795l.75-1.3m7.5-12.99l.75-1.3m-6.063 16.658l.26-1.477m2.605-14.772l.26-1.477m0 17.726l-.26-1.477M10.698 4.614l-.26-1.477M16.5 19.794l-.75-1.299M7.5 4.205L12 12m6.894 5.785l-1.149-.964M6.256 7.178l-1.15-.964m15.352 8.864l-1.41-.513M4.954 9.435l-1.41-.514M12.002 12l-3.75 6.495" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    class="-mt-20 lg:w-40 lg:h-40 w-28 h-28 animate-spin">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
 
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    class="-mt-32 lg:mt-[-12rem] ml-4 duration-700 lg:w-[28rem] lg:h-[28rem] h-60 w-60 animate-spin">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095-5.13l1.41-.513M5.106 17.785l1.15-.964m11.49-9.642l1.149-.964M7.501 19.795l.75-1.3m7.5-12.99l.75-1.3m-6.063 16.658l.26-1.477m2.605-14.772l.26-1.477m0 17.726l-.26-1.477M10.698 4.614l-.26-1.477M16.5 19.794l-.75-1.299M7.5 4.205L12 12m6.894 5.785l-1.149-.964M6.256 7.178l-1.15-.964m15.352 8.864l-1.41-.513M4.954 9.435l-1.41-.514M12.002 12l-3.75 6.495" />
+                                </svg>
+                            </div>
+
+                        </div>
+                        <div class="space-y-8 md:w-6/12">
+                            <div data-aos="fade-left" data-aos-delay="300">
+                                <h1 class="text-6xl font-semibold">Réactivité</h1>
+                                <p class="max-w-md text-lg info">Parce que nous savons qu’on se souvient toujours plus
+                                    du
+                                    premier que du reste, parce que nous sommes convaincus qu’être le premier vaut mieux
+                                    que d’être le plus intelligent, nous travaillons à faire de vous LE TOP OF MIND de
+                                    votre niche</p>
+                            </div>
+                            <div class="pl-8" data-aos="fade-right" data-aos-delay="300">
+                                <h1 class="text-6xl font-semibold">Créativité</h1>
+                                <p class="max-w-md text-lg info">Nous avons l’art de trouver ce que vos concurrents ne
+                                    cherchent
+                                    pas. Nos clients disent parfois que nous sommes fous ! Nous leur répondons qu’ils
+                                    ont raison parce qu’il faut de la folie pour regarder le soleil quand tout le monde
+                                    regarde le ciel </p>
+                            </div>
+                            <div data-aos="fade-down" data-aos-delay="300">
+                                <h1 class="text-6xl font-semibold">Passion</h1>
+                                <p class="max-w-md text-lg info">Pour nous, la passion pousse à la recherche la
+                                    perfection et la
+                                    quête de la perfection mène à l’excellence. Elle est le carburant du moteur de
+                                    chaque membre de notre équipe. Chaque élément de cette POULIE qui vous tire vers le
+                                    haut est fortifié par cette substance. </p>
+                            </div>
+                        </div>
+
+                    </div>
                     <div class="items-center md:flex">
                         <div data-aos="fade-right" data-aos-delay="300"
                             class="relative transform md:w-7/12 lg:scale-110 xl:-translate-x-20 md:-translate-x-10">
                             <img src="/engine-block.png" alt="">
-                            <div data-aos="fade-up" data-aos-delay="300" class="absolute left-20 top-20 text-black/90">
+                            <div  class="absolute left-20 top-20 text-black/90">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" class="duration-700 w-52 h-52"
+                                    stroke-width="1.5" stroke="currentColor" class="w-52 h-52"
                                     style="animation: spin 15s linear infinite;">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095-5.13l1.41-.513M5.106 17.785l1.15-.964m11.49-9.642l1.149-.964M7.501 19.795l.75-1.3m7.5-12.99l.75-1.3m-6.063 16.658l.26-1.477m2.605-14.772l.26-1.477m0 17.726l-.26-1.477M10.698 4.614l-.26-1.477M16.5 19.794l-.75-1.299M7.5 4.205L12 12m6.894 5.785l-1.149-.964M6.256 7.178l-1.15-.964m15.352 8.864l-1.41-.513M4.954 9.435l-1.41-.514M12.002 12l-3.75 6.495" />

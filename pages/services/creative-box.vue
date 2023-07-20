@@ -30,7 +30,7 @@
                 <div class="md:w-3/5 mt-16 lg:mt-32">
                     <h2 class="text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl">
                         Nos prestations</h2>
-                    <p class="mt-4 text-gray-600">Apiente optio repellendus atque
+                    <p class="mt-4 text-gray-600 hidden">Apiente optio repellendus atque
                         illum odio! Fugiat at expedita deserunt dolorum molestias.</p>
                 </div>
                 <div class="mt-16">
@@ -62,9 +62,7 @@
                                 <h2 class="text-lg font-bold">Graphisme & Prints</h2>
 
                                 <p class="mt-1 text-sm text-gray-700">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                                    Quaerat, saepe?
+                                    Notre équipe de créatifs se compose d’un directeur artistique, de graphistes et de webdesigners qui pourront répondre à toutes vos problématiques en matière de supports de communication de la conception graphique au print. Quelle que soit votre entreprise nos équipes peuvent créer la solution adaptée à vous et à votre identité visuelle.
                                 </p>
                             </div>
                         </div>
@@ -93,9 +91,7 @@
                                 <h2 class="text-lg font-bold">Photographie</h2>
 
                                 <p class="mt-1 text-sm text-gray-700">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                                    Quaerat, saepe?
+                                    Nous sommes conscients que chaque projet est unique, c'est pourquoi nous prenons le temps de comprendre vos besoins et vos objectifs pour produire des images qui traitent votre vision. Nous serons ravis de vous aider à donner vie à vos idées et de vous accompagner dans la réussite de votre entreprise ou de votre personal branding.
                                 </p>
                             </div>
                         </div>
@@ -124,9 +120,7 @@
                                 <h2 class="text-lg font-bold">Videos</h2>
 
                                 <p class="mt-1 text-sm text-gray-700">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                                    Quaerat, saepe?
+                                    L’Agence Poulie offre une large gamme de services de vidéographie, allant de la production de vidéos d'entreprise à la réalisation de vidéos teasing, en passant par la production de vidéos événementielles, de films documentaires et spots publicitaires ou encore de vidéos artistiques. Nous travaillons à produire des vidéos qui captent l'attention de votre public et transmettent votre message de manière percutante.
                                 </p>
                             </div>
                         </div>
@@ -155,9 +149,7 @@
                                 <h2 class="text-lg font-bold">Copywriting & Redaction Web</h2>
 
                                 <p class="mt-1 text-sm text-gray-700">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                                    Quaerat, saepe?
+                                    Vous souhaitez toucher votre cible par une histoire captivante et persuasive, nous rédigeons pour vous des textes qui contrôlent votre image de marque, captent l'attention de votre audience et transmettent votre message de manière claire et efficace.
                                 </p>
                             </div>
                         </div>
@@ -186,9 +178,7 @@
                                 <h2 class="text-lg font-bold">Podcasts</h2>
 
                                 <p class="mt-1 text-sm text-gray-700">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                                    Quaerat, saepe?
+                                    Parce que le podcast est un excellent moyen de se démarquer de la concurrence, nous produisons pour vous des podcasts originaux et créatifs pour vous permettre non seulement d’attirer l'attention de votre public mais aussi de renforcer votre image de marque.
                                 </p>
                             </div>
                         </div>
@@ -217,9 +207,7 @@
                                 <h2 class="text-lg font-bold">Illustrations</h2>
 
                                 <p class="mt-1 text-sm text-gray-700">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                                    Quaerat, saepe?
+                                    Nos illustrateurs sont d’excellents artistes visuels qui créent des images pour transmettre votre message ou raconter des belles histoires autour de votre marque. Ils créent à travers cette technique des projets extraordinaires qui vous présentent de manière unique : Publicités, Packeging, covers, magazines, bandes dessinées, affiches, des cartes de vœux et bien plus encore.
                                 </p>
                             </div>
                         </div>

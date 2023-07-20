@@ -8,7 +8,7 @@
                     <div
                             class="max-w-lg lg:mx-0 ltr:lg:text-left rtl:lg:text-right"
                     >
-                        <h1 class="text-5xl font-black md:text-6xl xl:text-7xl" data-aos="fade-up" data-aos-delay="300">LA VOXBOX</h1>
+                        <h1 class="text-5xl font-black md:text-6xl xl:text-7xl" data-aos="fade-up" data-aos-delay="300">LA BOITE NOIRE</h1>
 
                         <p class="mt-4 text-lg text-gray-600 lg:text-xl" data-aos="fade-up" data-aos-delay="300">
                             Votre âme est invisible, mais pour savoir à quoi elle ressemble on écoute juste votre VOIX

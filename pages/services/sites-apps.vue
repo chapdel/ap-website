@@ -1,9 +1,9 @@
 <template>
     <div>
         <main class="mb-40">
-            <div class="relative overflow-hidden  lg:overflow-auto">
-                <div class="mx-auto max-w-6xl px-6 md:px-12 lg:px-6 xl:px-0">
-                    <div class="relative ml-auto pt-40 xl:pt-36">
+            <div class="relative overflow-hidden lg:overflow-auto">
+                <div class="max-w-6xl px-6 mx-auto md:px-12 lg:px-6 xl:px-0">
+                    <div class="relative pt-40 ml-auto xl:pt-36">
                         <div class="gap-12 md:flex md:items-center">
                             <div class="text-center sm:px-12 md:w-2/3 md:px-0 md:text-left lg:w-1/2">
                                 <h1 class="text-5xl font-black md:text-6xl xl:text-7xl">Sites web et applications</h1>
@@ -11,17 +11,17 @@
                                     <p class="mt-8 text-lg text-gray-700">Faites le choix entre UN BON MARKETING qui
                                         donne à l'entreprise l'air intelligent et UN GRAND MARKETING qui pousse le
                                         client à se sentir intelligent.</p>
-                                    <div class="mt-12 flex justify-center gap-4 sm:gap-6 md:justify-start">
+                                    <div class="flex justify-center gap-4 mt-12 sm:gap-6 md:justify-start">
                                         <NuxtLink to="/contacts"
                                                   class="block w-full p-4 text-center text-white uppercase rounded-md lg:w-8/12 bg-black/95 hover:bg-black">
-                                            S"ACCROCHEZ à LA POULIE
+                                            S"ACCROCHER à LA POULIE
                                         </NuxtLink>
                                     </div>
                                 </div>
                             </div>
                             <div class="relative mt-20 md:mt-0 md:w-2/5 lg:w-3/5">
                                 <div class="-ml-6 md:-mr-72 lg:mr-0">
-                                    <img class="h-full object-cover object-left rounded" src="/sites-app-hero.jpg"
+                                    <img class="object-cover object-left h-full rounded" src="/sites-app-hero.jpg"
                                          alt="app screenshot">
                                 </div>
                             </div>
@@ -31,9 +31,9 @@
             </div>
 
             <div class="pt-44" id="solution">
-                <div class="mx-auto max-w-6xl px-6 md:px-12 lg:px-6 xl:px-0">
+                <div class="max-w-6xl px-6 mx-auto md:px-12 lg:px-6 xl:px-0">
                     <div class="flex-row-reverse items-center justify-between space-y-12 text-gray-600 md:flex md:gap-6 lg:gap-12 lg:space-y-0">
-                        <div class="relative ml-auto h-full md:w-1/2">
+                        <div class="relative h-full ml-auto md:w-1/2">
                             <img class="dark:hidden" src="/apps-militons.jpg" alt="app milestone" width="1174"
                                  height="1134">
                             <img class="hidden dark:block" src="/apps-militons.jpg" alt="app milestone"
@@ -56,9 +56,9 @@
                     <div class="my-32">
                         <h3 class="text-2xl font-bold text-gray-900 md:w-2/3 md:text-3xl lg:text-4xl">
                             Des liens au lien, il y’a quelques lignes</h3>
-                        <div class="relative mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                            <div class="relative overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white p-px">
-                                <div class="relative flex h-full flex-col items-start gap-6 rounded-2xl bg-gray-100 p-8">
+                        <div class="relative grid gap-6 mt-12 sm:grid-cols-2 lg:grid-cols-3">
+                            <div class="relative p-px overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white">
+                                <div class="relative flex flex-col items-start h-full gap-6 p-8 bg-gray-100 rounded-2xl">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
                                     </svg>
@@ -69,8 +69,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white p-px">
-                                <div class="relative flex h-full flex-col items-start gap-6 rounded-2xl bg-gray-100 p-8">
+                            <div class="relative p-px overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white">
+                                <div class="relative flex flex-col items-start h-full gap-6 p-8 bg-gray-100 rounded-2xl">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
                                     </svg>
@@ -81,8 +81,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white p-px">
-                                <div class="relative flex h-full flex-col items-start gap-6 rounded-2xl bg-gray-100 p-8">
+                            <div class="relative p-px overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white">
+                                <div class="relative flex flex-col items-start h-full gap-6 p-8 bg-gray-100 rounded-2xl">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
                                     </svg>
@@ -93,8 +93,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white p-px">
-                                <div class="relative flex h-full flex-col items-start gap-6 rounded-2xl bg-gray-100 p-8">
+                            <div class="relative p-px overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white">
+                                <div class="relative flex flex-col items-start h-full gap-6 p-8 bg-gray-100 rounded-2xl">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
                                     </svg>
@@ -105,8 +105,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white p-px">
-                                <div class="relative flex h-full flex-col items-start gap-6 rounded-2xl bg-gray-100 p-8">
+                            <div class="relative p-px overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white">
+                                <div class="relative flex flex-col items-start h-full gap-6 p-8 bg-gray-100 rounded-2xl">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
                                     </svg>
@@ -117,8 +117,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white p-px">
-                                <div class="relative flex h-full flex-col items-start gap-6 rounded-2xl bg-gray-100 p-8">
+                            <div class="relative p-px overflow-hidden rounded-2xl bg-gradient-to-b from-gray-200 to-white">
+                                <div class="relative flex flex-col items-start h-full gap-6 p-8 bg-gray-100 rounded-2xl">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
                                     </svg>

@@ -1,0 +1,101 @@
+# This is a GitLab CI configuration to build the project as a docker image
+# The file containing a working Dockerfile
+# Author: Tankeu B.zile, Ingenieur des travaux Informatiques
+# Email: b.ziletankeu@gmail.com
+
+image: docker:19
+
+stages:
+  - build
+  - release
+
+services:
+  - docker:19.03.12-dind
+
+variables:
+  REGISTRY_IMAGE: "${REGISTRY}/${CI_PROJECT_PATH}"
+
+before_script:
+  # docker login asks for the password to be passed through stdin for security
+  # we use $CI_REGISTRY_PASSWORD here which is a special token provided by GitLab
+  - echo -n $CI_REGISTRY_PASSWORD | docker login -u $CI_REGISTRY_USER --password-stdin $CI_REGISTRY
+
+build:staging:
+  stage: build
+  only:
+    - develop
+  script:
+    - echo -n $CI_REGISTRY_PASSWORD | docker login -u $CI_REGISTRY_USER --password-stdin $CI_REGISTRY
+    - echo building Staging version
+
+    # build the project,
+    # the built image is tagged locally with the package version, and then pushed to
+    # the GitLab registry
+    - >
+      docker build
+      --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+      -t $CI_REGISTRY_IMAGE
+      -f dockerfile
+      .
+
+    # Push the original image based on commit
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+
+build:prod:
+  stage: build
+  only:
+    - main
+  script:
+    - echo -n $CI_REGISTRY_PASSWORD | docker login -u $CI_REGISTRY_USER --password-stdin $CI_REGISTRY
+    - echo building Prod version
+
+    # build the project,
+    # the built image is tagged locally with the package version, and then pushed to
+    # the GitLab registry
+    - >
+      docker build
+      --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+      -t $CI_REGISTRY_IMAGE
+      -f dockerfile
+      .
+
+    # Push the original image based on commit
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+
+release:staging:
+  variables:
+    # We are just playing with Docker here.
+    # We do not need GitLab to clone the source code.
+    GIT_STRATEGY: none
+  stage: release
+  needs:
+    - job: build:staging
+  only:
+    - develop
+  script:
+    - echo -n $REGISTRY_PASSWORD | docker login -u $REGISTRY_USER --password-stdin $REGISTRY
+    # Because we have no guarantee that this job will be picked up by the same runner
+    # that built the image in the previous step, we pull it again locally
+    - docker pull $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+    - docker tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA $REGISTRY_IMAGE:staging
+    # Annnd we push it.
+    - docker push $REGISTRY_IMAGE:staging
+
+release:prod:
+  variables:
+    # We are just playing with Docker here.
+    # We do not need GitLab to clone the source code.
+    GIT_STRATEGY: none
+  stage: release
+  needs:
+    - job: build:prod
+  only:
+    - main
+  script:
+    - echo -n $REGISTRY_PASSWORD | docker login -u $REGISTRY_USER --password-stdin $REGISTRY
+    # Because we have no guarantee that this job will be picked up by the same runner
+    # that built the image in the previous step, we pull it again locally
+    - docker pull $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+    - docker tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA $REGISTRY_IMAGE:latest
+    # And we push it.
+    - docker push $REGISTRY_IMAGE:latest
