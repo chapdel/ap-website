@@ -162,7 +162,7 @@
                                             <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">Get notified when I
                                                 publish something new, and unsubscribe at any time.</p>
                                             <div class="mt-6 flex"><input type="email" placeholder="Email address"
-                                                    aria-label="Email address" required=""
+                                                    aria-label="Email address" 
                                                     class="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm"><button
                                                     class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-800 font-semibold text-zinc-100 hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 dark:bg-zinc-700 dark:hover:bg-zinc-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 ml-4 flex-none"
                                                     type="submit">Join</button></div>
@@ -186,7 +186,7 @@
                                                         class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                                                         <img alt="" loading="lazy" width="32" height="32" decoding="async"
                                                             data-nimg="1" class="h-7 w-7" style="color:transparent"
-                                                            src="/_next/static/media/planetaria.ecd81ade.svg">
+                                                            src="media/planetaria.ecd81ade.svg">
                                                     </div>
                                                     <dl class="flex flex-auto flex-wrap gap-x-2">
                                                         <dt class="sr-only">Company</dt>
@@ -202,7 +202,7 @@
                                                         class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                                                         <img alt="" loading="lazy" width="32" height="32" decoding="async"
                                                             data-nimg="1" class="h-7 w-7" style="color:transparent"
-                                                            src="/_next/static/media/planetaria.ecd81ade.svg">
+                                                            src="media/planetaria.ecd81ade.svg">
                                                     </div>
                                                     <dl class="flex flex-auto flex-wrap gap-x-2">
                                                         <dt class="sr-only">Company</dt>
@@ -218,7 +218,7 @@
                                                         class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                                                         <img alt="" loading="lazy" width="32" height="32" decoding="async"
                                                             data-nimg="1" class="h-7 w-7" style="color:transparent"
-                                                            src="/_next/static/media/planetaria.ecd81ade.svg">
+                                                            src="media/planetaria.ecd81ade.svg">
                                                     </div>
                                                     <dl class="flex flex-auto flex-wrap gap-x-2">
                                                         <dt class="sr-only">Company</dt>
