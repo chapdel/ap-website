@@ -58,7 +58,7 @@
                         </div>
 
                         <div class="hidden lg:flex lg:items-center lg:space-x-10">
-                            <a href="https://blog.agencepoulie.com" class="text-sm font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600" target="_blank">Blog</a>
+                            <a href="https://notes.agencepoulie.com" class="text-sm font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600" target="_blank">Blog</a>
                             <NuxtLink to="/contacts" title="Contacts" @click="hideMobileMenu()"
                                       class="text-sm font-medium text-black uppercase transition-all duration-200 hover:text-gray-600 focus:text-gray-600">
                                 Contacts
@@ -91,7 +91,7 @@
                                   class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">
                             Boite Noire
                         </NuxtLink>
-                        <a href="https://blog.agencepoulie.com" title="Contacts" @click="hideMobileMenu()"
+                        <a href="https://notes.agencepoulie.com" title="Contacts" @click="hideMobileMenu()"
                                   class="py-2 text-base font-medium text-black uppercase transition-all duration-200 focus:text-gray-600">
                             BLOG
                         </a>
@@ -210,9 +210,7 @@
                   <a href="#" class="mr-4 hover:underline md:mr-6">Contact</a>
                 </li>
               </ul> -->
-                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© {{ new Date().getFullYear() }}. Tout
-          droits
-          reservés.</span>
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© {{ new Date().getFullYear() }}. Tout droits reservés.</span>
             </div>
         </footer>
     </div>
@@ -220,7 +218,6 @@
 <script setup>
 import {ref, computed} from 'vue'
 import {useWindowScroll} from '@vueuse/core'
-
 const {x, y} = useWindowScroll()
 
 const showMobileMenu = ref(false)
